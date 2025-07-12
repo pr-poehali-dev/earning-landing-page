@@ -47,13 +47,19 @@ const Index = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <Button
-                  size="lg"
-                  className="bg-energizing hover:bg-energizing/90 text-white font-bold py-4 px-8 text-lg rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
+                <a
+                  href="https://lkhq.cc/1454"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <Icon name="Play" className="mr-2" size={20} />
-                  НАЧАТЬ РАБОТАТЬ
-                </Button>
+                  <Button
+                    size="lg"
+                    className="bg-energizing hover:bg-energizing/90 text-white font-bold py-4 px-8 text-lg rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
+                  >
+                    <Icon name="Play" className="mr-2" size={20} />
+                    НАЧАТЬ РАБОТАТЬ
+                  </Button>
+                </a>
 
                 <Button
                   size="lg"
@@ -159,13 +165,19 @@ const Index = () => {
           <p className="text-xl text-white/80 mb-8">
             Присоединяйся к тысячам успешных игроков прямо сейчас!
           </p>
-          <Button
-            size="lg"
-            className="bg-gradient-to-r from-energizing to-motivating hover:from-energizing/90 hover:to-motivating/90 text-white font-bold py-6 px-12 text-xl rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300"
+          <a
+            href="https://lkhq.cc/1454"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <Icon name="Rocket" className="mr-3" size={24} />
-            НАЧАТЬ РАБОТАТЬ СЕЙЧАС
-          </Button>
+            <Button
+              size="lg"
+              className="bg-gradient-to-r from-energizing to-motivating hover:from-energizing/90 hover:to-motivating/90 text-white font-bold py-6 px-12 text-xl rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300"
+            >
+              <Icon name="Rocket" className="mr-3" size={24} />
+              НАЧАТЬ РАБОТАТЬ СЕЙЧАС
+            </Button>
+          </a>
         </div>
       </section>
 
